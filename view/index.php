@@ -1,4 +1,8 @@
 <?php
+
+require "framework/core/Framework.php";
+
+Framework::run();
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,7 +24,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="#">Clothes</a></li>
-                <li><a href="about.php">about</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="register.php">Create Account</a></li>
                 <li><a href="login.php">Sign In</a></li>
@@ -44,7 +48,6 @@
             </a>
             <p>Description</p>
         </section><!--
-      Venue
       --><section class="col-1-3">
             <img src="https://cdn.shopify.com/s/files/1/0518/1725/1009/products/Main-4_773053e2-6196-4be9-864b-b42f7da4f99f_1800x1800.jpg?v=1614686753" alt="">
             <h3>Shop Shoes</h3>
@@ -57,7 +60,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="#">Clothes</a></li>
-                <li><a href="about.php">about</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="register.php">Create Account</a></li>
                 <li><a href="login.php">Sign In</a></li>
